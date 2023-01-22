@@ -8,3 +8,11 @@ class Solution {
         return new String(c);
     }
 }
+
+//Using in-built fucntion
+
+class Solution{
+    public String toLowerCase(String s){
+        return s.toLowerCase();
+    }
+}
