@@ -11,9 +11,9 @@ class Solution {
                 index[1] = right + 1;
                 break;
             } else if (v > target) {
-                right --;
+                right--;
             } else {
-                left ++;
+                left++;
             }
         }
         return index;
